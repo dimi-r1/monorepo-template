@@ -1,12 +1,12 @@
 import { render, screen } from "@testing-library/react";
-import App from "./ComparablesCore";
+import App from "./App";
 
 describe("Test", () => {
     it("should render", async () => {
         render(<App />);
 
         expect(
-            await screen.findByRole("heading", { name: "Comparables MFE" })
+            await screen.findByRole("heading", { name: "TEST MFE" })
         ).toBeInTheDocument();
     });
 });

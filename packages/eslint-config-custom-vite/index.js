@@ -20,6 +20,10 @@ module.exports = {
             parserOptions: {
                 sourceType: "script",
             },
+            rules: {
+                "import/no-commonjs": 0,
+                "@typescript-eslint/no-var-requires": 0,
+            },
         },
         {
             files: ["vite.config.ts"],

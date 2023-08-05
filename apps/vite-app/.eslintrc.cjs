@@ -1,10 +1,12 @@
+const { resolve } = require("path");
+
 module.exports = {
     root: true,
     extends: ["custom-vite"],
     parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
-        project: "packages/comparables-core/tsconfig.json",
+        project: resolve(__dirname, "tsconfig.json"),
         exclude: ["node_modules", "dist"],
     },
 };

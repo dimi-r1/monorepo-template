@@ -17,7 +17,7 @@ export default defineConfig(({ mode }: ConfigEnv) => {
             rollupOptions: {
                 output: {
                     dir: OUTDIR || "dist",
-                    entryFileNames: "ilevel-adaptor.[hash].js",
+                    entryFileNames: "app.[hash].js",
                     chunkFileNames: "[name].[hash].js",
                 },
             },

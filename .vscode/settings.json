@@ -9,5 +9,6 @@
     "typescript.format.enable": false,
     "stylelint.configBasedir": "./",
     "stylelint.configFile": "stylelintrc.json",
-    "cSpell.words": ["Comparables"]
+    "cSpell.words": ["Chakra"],
+    "stylelint.validate": ["css", "less", "postcss", "scss"]
 }
