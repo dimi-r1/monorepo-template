@@ -1,0 +1,13 @@
+{
+    // Format on save with eslint for JS/TS/TSX.
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // Format on save with prettier for CSS/Json etc.
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
+    "stylelint.configBasedir": "./",
+    "stylelint.configFile": "stylelintrc.json",
+    "cSpell.words": ["Comparables"]
+}

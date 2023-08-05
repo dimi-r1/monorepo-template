@@ -1,0 +1,12 @@
+:root {
+    --t-base: 16;
+    --t-size-100: calc(12rem / var(--t-base));
+    --t-size-200: calc(16rem / var(--t-base));
+    --t-size-300: 1rem;
+    --t-size-400: calc(18rem / var(--t-base));
+    --t-size-500: calc(22rem / var(--t-base));
+    --t-size-600: calc(24rem / var(--t-base));
+    --t-size-700: calc(28rem / var(--t-base));
+    --t-size-800: calc(36rem / var(--t-base));
+    --t-size-900: calc(48rem / var(--t-base));
+}

@@ -1,0 +1,50 @@
+{
+    "name": "comparables-core",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "files": [
+        "dist/**"
+    ],
+    "main": "./dist/comparables-core.umd.cjs",
+    "module": "./dist/comparables-core.js",
+    "types": "./dist/src/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/comparables-core.js",
+            "require": "./dist/comparables-core.umd.cjs",
+            "types": "./dist/src/index.d.ts"
+        }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "typecheck": "tsc",
+        "clean": "rimraf .turbo && rimraf node_modules && rimraf dist",
+        "test": "vitest watch",
+        "preview": "vite preview",
+        "lint": "eslint --ext .ts,.tsx src"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^14.0.0",
+        "@testing-library/user-event": "^14.4.3",
+        "@types/react": "^18.2.15",
+        "@types/react-dom": "^18.2.7",
+        "@vitejs/plugin-react": "^4.0.3",
+        "eslint": "^8.2.0",
+        "eslint-config-custom-vite": "*",
+        "jest": "^29.6.2",
+        "jsdom": "^22.1.0",
+        "sass": "^1.64.1",
+        "tsconfig": "*",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5",
+        "vite-plugin-dts": "^3.5.0",
+        "vitest": "^0.33.0"
+    }
+}

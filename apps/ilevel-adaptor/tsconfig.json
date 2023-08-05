@@ -1,0 +1,7 @@
+// Browser config
+{
+    "extends": "tsconfig/tsconfig.vite.json",
+    // vite.config.ts is also included in tsconfig.node.json but eslint will complain if it's not included here too.
+    "include": ["src", ".eslintrc.cjs", "vite.config.ts"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
